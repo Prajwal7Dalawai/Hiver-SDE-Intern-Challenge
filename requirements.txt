@@ -1,0 +1,9 @@
+numpy
+pandas
+pyarrow
+scikit-learn
+sentence-transformers
+torch
+groq
+python-dotenv
+streamlit

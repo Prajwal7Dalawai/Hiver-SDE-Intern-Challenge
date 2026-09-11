@@ -1,0 +1,523 @@
+customer_tweet_id,customer_text,candidate_intent,similarity,human_intent,difficulty,notes
+275129,@115821 Please help! Someone hacked my account and I can’t contact you on your website as they changed the email and I cannot log in!,ACCOUNT_SECURITY,0.6755063533782959,ACCOUNT_SECURITY,EASY,Explicitly hacked; email changed
+2135765,"The @116090 app shows that my package was delivered yesterday, yet here I am without said package.",DELIVERY_NOT_RECEIVED,0.767397403717041,DELIVERY_NOT_RECEIVED,EASY,Delivered notification but package not received
+1458000,My order from @115821 just was delivered. Opened it and there’s NOTHING IN IT,MISSING_ITEM,0.7051033973693848,MISSING_ITEM,EASY,Order arrived but contents were missing
+2513448,@115850 A damaged product was supposed to be collected a few days back. But instead the person hasn't collected it yet. Very disappointed.,PRODUCT_ISSUE,0.5356836915016174,PRODUCT_ISSUE,BOUNDARY,Damaged product; collection issue is secondary
+1144950,@AmazonHelp Thanks for the super quick reply! Will this work even if I just want a partial refund?,RANDOM,,REFUND_STATUS,BOUNDARY,Asking about partial refund
+2983129,"@116875 tengo una cuenta bloqueada y no hay forma de entrar me aparece contraseña incorrecta, me podrian ayudar",ACCOUNT_ACCESS,0.7973475456237793,ACCOUNT_ACCESS,EASY,Account blocked/password/login issue
+1544601,"始めて架空請求にひっかかりそうになった(^-^;
+Amazonという名前に安心しきって電話してもうた。
+対応が違和感あったので
+途中で気づいて電話切ったものの
+着歴と名前、都道府県、生年月日まで言ってしまったヾ(ﾟдﾟ;)ちょっと焦る。
+皆様もこのSMにはお気をつけ下さい。 https://t.co/Nb1wxHJ4QJ",RANDOM,,ACCOUNT_SECURITY,MESSY,Suspicious call/SMS; security context
+2397253,@AmazonHelp so I got a weeks amazon prime and it’s got a convenient error not letting me cancel it,RANDOM,,ORDER_CANCELLATION,EASY,Explicit cancellation problem
+1030411,"@115823 I have not received cashback on amazon pay, where I can make complain ?",CASHBACK,0.7202616930007935,CASHBACK,EASY,Cashback not received
+2668021,"@AmazonHelp Je ne peux pas me connecter , mon compte est verrouillé ! 
+My account is locked !!",ACCOUNT_ACCESS,0.7524394989013672,ACCOUNT_ACCESS,EASY,Account locked
+990730,@115850 my order did not reached yet,ORDER_STATUS,0.6895849704742432,ORDER_STATUS,EASY,General order status; no explicit missed date
+667700,"@279154 @115821 Lies, I ordered this product and did not receive it, where is my gift set and now I will have to return it before you send what I actually ordered https://t.co/Ckqa7p1wkr",MISSING_ITEM,0.7097864747047424,DELIVERY_NOT_RECEIVED,BOUNDARY,Ordered product not received
+1149835,@AmazonHelp Then give me the link where I can track returned product .,RETURN_REPLACEMENT,0.535497784614563,RETURN_REPLACEMENT,BOUNDARY,Tracking a returned product
+324236,"@115850 I want my order to be delivered today else cancel the order no use of prime
+membership
+Order
+407-7611937-1951563
+It's frustrating",ORDER_CANCELLATION,0.7589147090911865,ORDER_CANCELLATION,EASY,Explicit cancellation
+744150,@AmazonHelp Ça devient un peu de l’abus..? J’ai besoin de mon colis demain matin et je me retrouve coincée. Que pouvez vous faire ..?,RANDOM,,DELIVERY_DELAY,MESSY,Delivery problem implied; wording ambiguous
+2451307,"@AmazonHelp @115850 why am I being charged 1300 at an mrp of 478,doesn't that amount to cheating? https://t.co/TZGvB7sLM1",UNEXPECTED_CHARGE,0.5362052321434021,UNEXPECTED_CHARGE,EASY,Charged more than expected
+1350238,@AmazonHelp sent an email stating my account was hacked. I’ve yet to receive a response. Thanks for allowing someone else have access to my account and information. Feeling safe knowing y’all don’t give a fuck about your customers.,ACCOUNT_SECURITY,0.7427465915679932,ACCOUNT_SECURITY,EASY,Account hacked
+1205007,@115821 where's my package smh,DELIVERY_TRACKING,0.5151048898696899,DELIVERY_TRACKING,EASY,Asking package location
+377211,"@115850 Loved the fast replacements @115850 . 
+
+#KaroMilkeTayyari 
+#AmazonGreatIndianFestival",RANDOM,,OTHER,MESSY,Positive feedback; no supported intent
+577725,"@AmazonHelp @115850 I haven't received my Cashback as promised by your team during the great Indian Diwali sale in October. I had bought a Redmi 4 phone worth 8499 and as per the terms and conditions, I was eligible for a 10% Cashback.  Could you please reimburse the money?",CASHBACK,0.6890782117843628,CASHBACK,EASY,Cashback not received
+250577,"shiiiiit I love how amazon is like, “the delivery driver is 5 minutes away from your house” 
+
+they’re most consistent than the girls I’ve talked to",RANDOM,,OTHER,MESSY,Positive driver comment
+1258634,@AmazonHelp Are you really asking if I checked the tracking information?? 😂 yes the tracking info says that my package is delivered and ready for pickup,DELIVERY_TRACKING,0.6733365654945374,DELIVERY_TRACKING,EASY,Tracking status
+2301909,"@AmazonHelp 11th November, yesterday",RANDOM,,OTHER,MESSY,No meaningful support request
+293367,@AmazonHelp Hi. I need to speak about an order I just placed. But your CC IVR won’t let me. Please help.,ORDER_STATUS,0.6752512454986572,ORDER_STATUS,BOUNDARY,Inquiry about recently placed order
+2855076,@120533 vos livreurs se moquent de leurs clients non ? Pas le temps de répondre à l’interphone qu’il est déjà parti ..,RANDOM,,OTHER,MESSY,General driver comment
+2499097,@AmazonHelp le lien donne sur un login sauf que mon compte est bloquer donc je ne peux pas me connecter. aucune n'autre connection ?,ACCOUNT_ACCESS,0.7124779224395752,ACCOUNT_ACCESS,EASY,Account blocked
+2387892,@AmazonHelp Full refund! Thank you 😉,REFUND_STATUS,0.7722656726837158,REFUND_STATUS,EASY,Refund request/status
+1609584,@AmazonHelp Oh n here’s my original order https://t.co/8ZyT9kS2GE,ORDER_STATUS,0.6680006980895996,ORDER_STATUS,EASY,Order inquiry
+989221,"@AmazonHelp Today is 14 Oct can I expect that I would receive my order today? Which was expected on 9 Oct. 
+Order # 402-7037462-2377120.",ORDER_STATUS,0.7242050766944885,DELIVERY_DELAY,EASY,Expected date has passed
+445515,@AmazonHelp I want my product replaced . Nothing else . I dont want a refund @115850,RETURN_REPLACEMENT,0.8139621615409851,RETURN_REPLACEMENT,EASY,Explicit replacement request
+1557653,@AmazonHelp Can I post the order number,ORDER_STATUS,0.6669418811798096,ORDER_STATUS,EASY,Asking for order number/status
+2967746,"@AmazonHelp I received an email that my package was delivered today, approx 4 hours ago. But, I've no package in my possession. Nothing on back patio, nothing at the front door, nothing at the apt manager office. Umm, where's my order?",DELIVERY_NOT_RECEIVED,0.6933082342147827,DELIVERY_NOT_RECEIVED,EASY,Delivered notification but package missing
+1808828,@115830 I have not been given any new information on when my packages will arrive and they were due 3 days ago. Please help me,DELIVERY_DELAY,0.6976711750030518,DELIVERY_DELAY,EASY,Delivery due three days ago
+81054,I am rohit vijan i have purchased fit bit altra band so i returned the product on 11 nov and since 24 nov my refund isnt initiated is that lyk this u provide service to customers @AmazonHelp @AmazonHelp @115821 @115850 my contct no 9619266205 https://t.co/cQbCsIUl4z,RETURN_REPLACEMENT,0.5333243608474731,REFUND_STATUS,EASY,Refund not initiated
+1013750,"Excuse me Amazon wtf, you told me my package was delivered yesterday in my mailbox, no package to be found",DELIVERY_NOT_RECEIVED,0.7203030586242676,DELIVERY_NOT_RECEIVED,EASY,Delivered but package missing
+260809,Yo @115830 your driver left my parcel on my doorstep &amp; covered it in rubbish. In the rain. Can you not do that again please?,RANDOM,,DELIVERY_DRIVER_ISSUE,EASY,Driver left parcel incorrectly
+1079075,@AmazonHelp I just found out today that my account was hacked and the email address was changed. Is there anyway to get it back?,ACCOUNT_SECURITY,0.7455847263336182,ACCOUNT_SECURITY,EASY,Account hacked/email changed
+831817,@AmazonHelp I have not received my package which was to be delivered yesterday.,DELIVERY_NOT_RECEIVED,0.8593702912330627,DELIVERY_DELAY,BOUNDARY,Missed expected delivery date
+1139798,"@AmazonHelp How would I find that out?  There is no information on my tracking link, just said 'dispatched' and 'out for delivery'",DELIVERY_TRACKING,0.5197367668151855,DELIVERY_TRACKING,EASY,Tracking lacks information
+264648,@AmazonHelp ord no. 171 6979504 0534744 my friend asked for replacement they picked up the product and have not sent replacement.pls help,PRODUCT_ISSUE,0.5489951372146606,RETURN_REPLACEMENT,EASY,Replacement hasn't been sent
+253968,@AmazonHelp Where is my order ?,ORDER_STATUS,0.7475205659866333,ORDER_STATUS,EASY,Asking where order is
+2644123,Dear @115850 I already had a prime membership when I bought the echo dot. So do I get a year's extension?,RANDOM,,OTHER,MESSY,Prime membership extension; unsupported intent
+2378231,@AmazonHelp amount still not refunded. https://t.co/KpX2H3pe3q,CASHBACK,0.6505693793296814,REFUND_STATUS,BOUNDARY,Refund not received; not cashback
+2870674,"@AmazonHelp No, pensé que me habían hackeado mi cuenta, cambie la contraseña y ni así me dejaba entrar desde pc (en la APP si puedo excepto cuando pide login).
+En mi correo solo están de las compras y el cambio de contraseña, nunca uno de el motivo o algo similar.",ACCOUNT_SECURITY,0.7281210422515869,ACCOUNT_SECURITY,EASY,Hacked account/password changed
+429524,@AmazonHelp I am not able to return my Order. Even though it was ordered with returned policy. Please help.,MISSING_ITEM,0.7405359148979187,RETURN_REPLACEMENT,EASY,Unable to return order
+441792,@AmazonHelp @AmazonHelp hv spent last 12 dys of my life on the link u provided Hope u guys see tweets properly there are scrnshots attched sleepy much??,RANDOM,,OTHER,MESSY,No usable support intent
+74684,@AmazonHelp The item is being returned undelivered by the courier,MISSING_ITEM,0.7121122479438782,RETURN_REPLACEMENT,BOUNDARY,Return process/courier issue
+259908,@115821 where my package fam???,DELIVERY_TRACKING,0.5373132228851318,DELIVERY_TRACKING,EASY,Asking package location
+1503842,@AmazonHelp it's almost 24 hours! No update from your side! Can you please tell how do i cancel this order?,ORDER_CANCELLATION,0.8076663613319397,ORDER_CANCELLATION,EASY,Explicit cancellation
+735006,@AmazonHelp please check my DM about package tracking.,DELIVERY_TRACKING,0.8286037445068359,DELIVERY_TRACKING,EASY,Explicit tracking request
+1653470,@228164 @115850 @AmazonHelp I want to cancel my order which I placed by mistake. I am not finding cancel order icon. Help ASAP! https://t.co/DUqMTPjjOm,ORDER_CANCELLATION,0.8243385553359985,ORDER_CANCELLATION,EASY,Explicit cancellation request
+1151151,@AmazonHelp Could you please explain me the procedure to cancel the order...I don't want any more false promises n bullshit ...,ORDER_CANCELLATION,0.7400270700454712,ORDER_CANCELLATION,EASY,Asking how to cancel
+665492,@115850 My this AWB no # 663753539214 was schedule to pick today but Fedex courier nvr turned up.. Later i called in customer care center. plz help https://t.co/7nSLtV8ojk,RANDOM,,DELIVERY_DRIVER_ISSUE,EASY,FedEx courier did not show for scheduled pickup
+1124638,"@115850 want cancel the order, but cancel button not found... https://t.co/3HQQfZKgE7",ORDER_CANCELLATION,0.8522733449935913,ORDER_CANCELLATION,EASY,Cancel button unavailable
+2797118,@AmazonHelp Hola! Son vendidos directamente por Amazon.,RANDOM,,OTHER,MESSY,Statement/comment with no clear supported intent
+250024,@AmazonHelp Since last September I have paid you for my order .item could not delivered but did not returned my money,MISSING_ITEM,0.6958577632904053,REFUND_STATUS,BOUNDARY,Item couldn't be delivered and money wasn't returned
+465133,"I've been trying all week to place an order on @115821 but for some reason I don't know, they keep cancelling my orders. Ugh.",ORDER_CANCELLATION,0.7677422761917114,ORDER_CANCELLATION,EASY,Orders repeatedly being cancelled
+312837,"@116316 #WheresMyStuff my package was ""delivered""; but I haven't received it!! 😨",DELIVERY_NOT_RECEIVED,0.7860279083251953,DELIVERY_NOT_RECEIVED,EASY,Delivered but not received
+24986,@AmazonHelp order 406-5346056-8286767 I want a refund for the product. https://t.co/CKTsoBPMgb,RETURN_REPLACEMENT,0.5758481025695801,REFUND_STATUS,EASY,Explicit refund request
+2616400,"@AmazonHelp Le suivi dit qu'une date de livraison est en attente, que je recevrais un mail pour m'informer de la livraison.",DELIVERY_DELAY,0.6831710338592529,DELIVERY_TRACKING,BOUNDARY,Delivery date is pending; waiting for delivery information
+1627282,@120533 @115821 locked me out of my account. And I can’t unlock it 😒😒😒,ACCOUNT_ACCESS,0.6948667168617249,ACCOUNT_ACCESS,EASY,Locked out of account
+494975,@115821 So my account got hacked into. I am not able to login and in spite of changing my password multiple times it keeps saying password is wrong. Now I get a notification that email has been changed as well. Cant talk to anyone customer service says they need to fill a form!,ACCOUNT_SECURITY,0.6886160373687744,ACCOUNT_SECURITY,EASY,Hacked account with password/email changed
+1106552,#amazon #trucks have #gps #tracker so why are you telling me we don't know where your package is because it is in transit   #guaranteelate,DELIVERY_TRACKING,0.5532628893852234,DELIVERY_TRACKING,EASY,Package location/status unclear
+320325,@AmazonHelp Why don’t your prime drivers not read delivery instructions?,DELIVERY_DRIVER_ISSUE,0.622812032699585,DELIVERY_DRIVER_ISSUE,EASY,Driver not following delivery instructions
+2895972,@AmazonHelp They've now hung up after telling me that I've got to wait until tomorrow. No problem. I'm just cancelling the order now. And will cancel EVERY ORDER that you attempt to send via @132988 - simple solution.,ORDER_CANCELLATION,0.7347785234451294,ORDER_CANCELLATION,EASY,Explicit cancellation
+1538763,@118706 I️ needed my package before tomorrow for something very IMPORTANT and now it’s lost with no answer in what happened @118706 &amp; @115821,DELIVERY_NOT_RECEIVED,0.7631127834320068,DELIVERY_NOT_RECEIVED,BOUNDARY,Package hasn't arrived; no explicit missed promised date
+55059,@115830 @AmazonHelp I have an order that says delivered yesterday by amazon shipping but it hasn’t been delivered. What can I do?,MISSING_ITEM,0.7054697275161743,DELIVERY_NOT_RECEIVED,EASY,Delivered status but package not delivered
+2764987,"@AmazonHelp I have checked my tracking already and yesterday, also emailed customer service and had no reply. The tracking only shows the Sunday 19th tracking, nothing else.",DELIVERY_TRACKING,0.5325616598129272,DELIVERY_TRACKING,EASY,Tracking information hasn't updated
+1248956,アマゾンのポイントてアプリからだと使えないの？？,RANDOM,,OTHER,MESSY,Unsupported Amazon Points question
+2457861,@115821 I'm trying to place an order help me @123644,ORDER_STATUS,0.6898654103279114,OTHER,MESSY,"Trying to place an order, not asking about status"
+1254618,@AmazonHelp Nope. The money has been taken out of my account.,ACCOUNT_SECURITY,0.6408274173736572,UNEXPECTED_CHARGE,BOUNDARY,Money taken from account; charge context implied
+1311842,@AmazonHelp Last week you double charged me for prime.  Got that fixed.  Now you double chrgd kindle unlimited.,UNEXPECTED_CHARGE,0.4746779501438141,UNEXPECTED_CHARGE,EASY,Duplicate Prime/Kindle charge
+1709399,@AmazonHelp Many times,RANDOM,,OTHER,MESSY,No meaningful support request
+424298,Had something delivered but it was damaged so requested a replacement. Replacement is also damaged. Who can I speak to about this? @115830,PRODUCT_ISSUE,0.5773422718048096,PRODUCT_ISSUE,EASY,Delivered product and replacement are damaged
+1310628,@115851 @115850 @AmazonHelp 2 months and a  week later and still you guys have not refunded my money! https://t.co/C7FL0rD9Vl,CASHBACK,0.6511973142623901,REFUND_STATUS,EASY,Money hasn't been refunded
+1485358,@AmazonHelp Still have not received https://t.co/1DK8g1iK19,CASHBACK,0.6465345621109009,OTHER,MESSY,Insufficient context to establish cashback
+2880461,"@115830 product delivered, box battered, gift inside also damaged. How to proceed? This is unacceptable.",PRODUCT_ISSUE,0.5682985782623291,PRODUCT_ISSUE,EASY,Product and gift are damaged
+1206184,Hi @115830. I'd like to cancel an order which should have been delivered on Friday and still hasn't arrived. Please can you tell me how?,ORDER_CANCELLATION,0.7901336550712585,ORDER_CANCELLATION,EASY,Explicit cancellation
+2470093,@AmazonHelp It says it should have been delivered but I haven't received this item.,DELIVERY_NOT_RECEIVED,0.69464111328125,DELIVERY_NOT_RECEIVED,EASY,Expected delivery but item not received
+882506,@AmazonHelp @115830 have been locked out of my account without being notified. Can't access customer service as I need to login.,ACCOUNT_ACCESS,0.7895197868347168,ACCOUNT_ACCESS,EASY,Locked out and cannot access account
+2902500,@AmazonHelp hola! Me habéis cobrado el mismo pedido dos veces. Quiero una solución,UNEXPECTED_CHARGE,0.5290058255195618,UNEXPECTED_CHARGE,EASY,Same order charged twice
+862444,@115850 Very pathetic delivery and response from Amazon team with respect to phone which I ordered. (447196419153 tracking number),RANDOM,,DELIVERY_DELAY,MESSY,Poor delivery reported but exact failure isn't explicit
+1326927,"@AmazonHelp Eu fiz um pedido quarta. Eu ainda não recebi a nota fiscal, mas já recebi o recibo e não apareceu para trocar forma de pagamento (+)",CASHBACK,0.7305405735969543,OTHER,MESSY,Invoice/payment-method issue outside taxonomy
+861829,@AmazonHelp I’d really like my package now and don’t want to wait 1.5 hrs on hold to talk to @118706 to find out where it has gone.,DELIVERY_TRACKING,0.552943229675293,DELIVERY_TRACKING,BOUNDARY,Wants to know where package has gone
+481690,@AmazonHelp Me comenta el banco que ellos no realizan cargos dobles y cheque mi saldo y efectivamente se realizó un doble cobro unos el 30 a las 5:50 pm y otro hoy a las 2:50 am me podrían dar una solución de favor,UNEXPECTED_CHARGE,0.48406779766082764,UNEXPECTED_CHARGE,EASY,Explicit duplicate charge
+2906612,@AmazonHelp hi my order is showing as delivered but it isn’t here? I’ve been home all day so couldn’t have missed it. Order number: 204-8120334-0987527,MISSING_ITEM,0.7211121916770935,DELIVERY_NOT_RECEIVED,EASY,Delivered status but package not there
+361352,"@AmazonHelp View order details
+Order date
+09-Sep-2017
+Order #
+405-7676708-3857148
+Order total
+   3,635.00 (1 item)",ORDER_STATUS,0.6751784086227417,ORDER_STATUS,EASY,Asking to view order details
+726975,@115821 I haven't received my refund from past a month : order id 269039080,REFUND_STATUS,0.8032716512680054,REFUND_STATUS,EASY,Refund pending for a month
+2149463,"@AmazonHelp Check out order number 
+701-4591572-1714631 
+I ordered and it didn’t arrive so customer ask me to reorder and it didn’t arrive. This is 3rd.",MISSING_ITEM,0.7044510841369629,DELIVERY_NOT_RECEIVED,EASY,Ordered item didn't arrive
+2935791,"@115850 
+I bought a product but when I get it, that also broken so please sir return it immediately
+Track no 203987100",PRODUCT_ISSUE,0.6354876160621643,OTHER,MESSY,Kindle/promotion comment
+1242825,"@AmazonHelp esses descontos no kindle comprei o meu tão desejado kindle aaaaa e ainda ganhei um livro grátis, amos muito vocês!  ❤",RANDOM,,CASHBACK,EASY,Explicit promised cashback
+321661,@115850 I didn't receive my promised cashback. Neither am I able to contact customer care. There's a robot on the other side. :( Help ASAP,CASHBACK,0.7030985951423645,DELIVERY_DELAY,BOUNDARY,Customer objects to waiting until stated delivery date
+1279835,@AmazonHelp I will not wait till 29th October for the delivery.,RANDOM,,REFUND_STATUS,EASY,Waiting for refund
+249117,"Hey @115821, I'm waiting on that refund... thanks 😇",REFUND_STATUS,0.7506492733955383,OTHER,MESSY,Order modification/deletion issue outside taxonomy
+1402844,Thanks @115821 for messing up my order just because I deleted an item that hadn't even shipped yet. Very disappointed.,MISSING_ITEM,0.7259141206741333,DELIVERY_DELAY,BOUNDARY,Complains about inability to get delivery until Monday
+115862,"@AmazonHelp I am still having this problem... can't get anything, and I mean anything, delivered until Monday. So much for Prime delivery.",RANDOM,,OTHER,MESSY,Generic update request with insufficient context
+897117,"@AmazonHelp Hi team,
+
+Do you have any updates for me?",RANDOM,,DELIVERY_TRACKING,BOUNDARY,Asking for ETA
+35905,@AmazonHelp How short is your shortly? A response with an ETA would have been professional,RANDOM,,OTHER,MESSY,Subscription/order issue outside taxonomy
+352905,"@AmazonHelp Sir, how you can send me subscription item on one time purchase rate, after numerous reminders in these 2 days your side response is pathetic. After subscribing, rarely i see the amount of subscribed product you send.",RANDOM,,OTHER,MESSY,Review publication issue outside taxonomy
+850022,@AmazonHelp even my review is not published while I have written a correct word. See it https://t.co/4N4cSVmPfj,RANDOM,,,,
+481480,"@115821 Not received my product. But status is showing delivered. Please check where is the product or refund my amount. Order date
+23-Nov-2017
+Order #
+404-5816421-3911539
+Order total
+   3,251.60 (1 item)",MISSING_ITEM,0.6979022026062012,DELIVERY_NOT_RECEIVED,EASY,Product/package not received despite delivered status
+233785,@AmazonHelp Tracking on Canada Post says delivered on the 29th. Not updated on Amazon though.,DELIVERY_TRACKING,0.5526468753814697,DELIVERY_TRACKING,EASY,Carrier tracking and Amazon status disagree
+2280459,@AmazonHelp Now it won't let me sign into my account its saying my password is wrong,ACCOUNT_ACCESS,0.7885106801986694,ACCOUNT_ACCESS,EASY,Cannot sign in; password rejected
+757702,@AmazonHelp Okay! I will deactivate my account and make sure many other people do the same. YOU GUYS ARE CHEATING CONSUMERS @115851 @12934,ACCOUNT_SECURITY,0.633628249168396,ACCOUNT_SECURITY,EASY,Account compromise/fraud accusation
+1776199,@AmazonHelp good condition. Just started refund process. Another item never arrived but got a refund on that one.,REFUND_STATUS,0.7116051912307739,MISSING_ITEM,BOUNDARY,One item never arrived; refund is secondary
+440310,"@AmazonHelp I hope you will be initiate my refund on 28 Oct. Reply me. 
+@115821.IN @amazonHelp",REFUND_STATUS,0.7271173596382141,REFUND_STATUS,EASY,Asking about refund initiation
+341417,@AmazonHelp Only this has been left to hear..what a wonderful service it has been after 15 days of calls and follow ups,RANDOM,,OTHER,MESSY,Complaint without a clearly supported operational intent
+2868397,@132976 Wow. Die Synchronisation ist unterirdisch. Warum nicht einfach Untertitel?,RANDOM,,OTHER,MESSY,Synchronization/account feature issue outside taxonomy
+1741020,"Hey @115850 why have you cancelled my order? 😡
+Order number: 404-6296425-8499511",ORDER_CANCELLATION,0.7643150687217712,ORDER_CANCELLATION,EASY,Asking why order was cancelled
+1575619,"@AmazonHelp Delivery date is already delayed. 111-2691482-1933821 , also it says that it is a customer initiated delay which isn't right.",DELIVERY_DELAY,0.7476996779441833,DELIVERY_DELAY,EASY,Explicitly says delivery date is delayed
+728522,@AmazonHelp Logged on and returned books. It appears I will be refunded. They showed bill charge originally upon purchase presumed during trial period,UNEXPECTED_CHARGE,0.5226492285728455,UNEXPECTED_CHARGE,BOUNDARY,Charge during presumed trial period
+1087661,@AmazonHelp https://t.co/8aZ3NUAScP. 🤘🤘,RANDOM,,OTHER,MESSY,No clear support request
+120243,"@AmazonHelp “Return started
+Your refund will be processed”. I confirmed with customer service it arrived last Tuesday 11/14",REFUND_STATUS,0.7410434484481812,REFUND_STATUS,EASY,Refund processing status
+2306089,@AmazonHelp Account troubles please DM me!,ACCOUNT_ACCESS,0.7024458050727844,ACCOUNT_ACCESS,BOUNDARY,Vague account trouble; access issue implied
+2690709,@AmazonHelp I've shared it. Last time I was told to send an email and refund will be initiated in 2 days and I'll get a call. None of that ever happened.,RANDOM,,REFUND_STATUS,BOUNDARY,Refund promised but hasn't happened
+1248315,@AmazonHelp you can check my last 7 order in those i have faced issues in 6 orders for delivery ... Mo 9426890231 not get enough response,ORDER_STATUS,0.6611925959587097,ORDER_STATUS,EASY,Asking about order history/status
+946579,"@AmazonHelp Hola , perdón por contestar tarde , él paquete era de un vendedor externo",RANDOM,,OTHER,MESSY,Seller context without actionable supported intent
+2335511,@115850 It's the 5th tike I am going to request a return and still no one comes to take the product back.,RETURN_REPLACEMENT,0.5633059144020081,RETURN_REPLACEMENT,EASY,Explicit return request
+423251,@AmazonHelp The manufacturer provides no reply on this .. Please look into this,RANDOM,,OTHER,MESSY,Manufacturer hasn't replied; insufficient context
+1240703,@AmazonHelp Sorry for taking so long to respond. Here my tracking details https://t.co/OmcGheGsQC,DELIVERY_TRACKING,0.5069908499717712,DELIVERY_TRACKING,EASY,Tracking details
+1341694,@AmazonHelp Till now I have not received any calls from your side regarding my query I have filled the form too which you have given to me.,RANDOM,,OTHER,MESSY,Generic follow-up with insufficient context
+2531725,@115821 @115850  @AmazonHelp  After a one month wait period and thrice changed delivery date your support asks me to cancel my order !!!,ORDER_CANCELLATION,0.7553415298461914,ORDER_CANCELLATION,BOUNDARY,Customer is being asked to cancel after delivery-date changes
+454552,@AmazonHelp No I took them out the box feeling confident they would be fine as they had been delivered with such care &amp; wouldn’t need inspecting. Amazon Customer service in Manila couldn’t give 2 shits about the problem because 4 days later still waiting for a manager to call me back,RANDOM,,PRODUCT_ISSUE,BOUNDARY,Product problem; resolution delay is secondary
+420663,"@AmazonHelp Sir it's been more than 2 days I am trying to know the status of my order even today no action is taken, its been more than 2 days now",ORDER_STATUS,0.7242743372917175,ORDER_STATUS,EASY,Explicitly asks order status
+351477,@AmazonHelp Thanks for your response. I'm refunded only ₹679 for a total price of ₹799 which I paid. Not sure why.,REFUND_STATUS,0.7097492218017578,REFUND_STATUS,EASY,Refund amount doesn't match purchase price
+1289735,@115821 Account corrected! I’ve called 3 times and gotten the run around! I can’t log in to my own account #pleasehelp @115821  #thisisridiculous,ACCOUNT_ACCESS,0.7451699376106262,ACCOUNT_ACCESS,EASY,Cannot log into account
+2856569,"@AmazonHelp hola! Hice un pedido de dos artículos, uno en preventa y otro fuera de stock, he cancelado el del stock y creo que el de preventa también pero ese no quería cancelarlo. Me dice que se está preparando la cancelación pero quiero  volvero a pedir, cuando podré?",ORDER_CANCELLATION,0.7365665435791016,ORDER_CANCELLATION,EASY,Order cancellation issue
+327589,@AmazonHelp how do I get a product that arrived defective to be exchanged for one that works?,PRODUCT_ISSUE,0.6642696261405945,PRODUCT_ISSUE,EASY,Defective product; exchange requested
+838256,"@AmazonHelp hi, someone tried to login my account and manage to hack, and leave customer review by using my account.",ACCOUNT_SECURITY,0.7620522975921631,ACCOUNT_SECURITY,EASY,Attempted account compromise
+1302808,@119356 before 6m I request u provide invoice copy  in your app. if for inv.copy we go to site than how u say it better to use app @115821,RANDOM,,OTHER,MESSY,Invoice-copy request outside taxonomy
+2105743,"@AmazonHelp You can check out my order details.
+(408-9194083-1583519)",ORDER_STATUS,0.6581318378448486,ORDER_STATUS,EASY,Asking to check order details
+1223100,@AmazonHelp I can’t because I am unable to log in into my account. Registered no is 8867606711.,ACCOUNT_ACCESS,0.8077694177627563,ACCOUNT_ACCESS,EASY,Unable to log in
+18190,"@AmazonHelp @115850  @120040
+Even after your team's promise, I have not received my cashback of INR1500 before deadline given by them.",CASHBACK,0.7182468175888062,CASHBACK,EASY,Cashback not received
+13157,@AmazonHelp I have asked the customer care exec on phone to cancel the order. Don't want to waste any more of my time on this.,ORDER_CANCELLATION,0.7501057386398315,ORDER_CANCELLATION,EASY,Explicit cancellation
+1086042,"🤔 @115821 why do I need to ship this back if it’s broken? It seems like a waste of packaging, can you just send me a replacement? https://t.co/BOS3VEJnYg",PRODUCT_ISSUE,0.515591025352478,PRODUCT_ISSUE,BOUNDARY,Broken product; replacement secondary
+1380576,@AmazonHelp It’s been replaced once (the 1st time) and “updated” the 2nd. It won’t even turn on now. It’s fully charged.,UNEXPECTED_CHARGE,0.487209290266037,PRODUCT_ISSUE,EASY,Replaced product still doesn't work
+673162,@AmazonHelp done. sent an email,RANDOM,,OTHER,MESSY,No actionable intent
+1118559,@AmazonHelp Tracking #: 237294242407 i want my package to be delivered today .... as it is already shipped..,DELIVERY_TRACKING,0.7048851847648621,DELIVERY_TRACKING,EASY,Explicit tracking number/status
+1406568,"@AmazonHelp On that link on order was found ...
+I returned item on 27 sept 2017",MISSING_ITEM,0.6923762559890747,RETURN_REPLACEMENT,BOUNDARY,Returned item/order; return context primary
+2317037,@115821 I need your help. You charged me twice for 18.95 recent order! I could have used that $ this eve.,UNEXPECTED_CHARGE,0.495258629322052,UNEXPECTED_CHARGE,EASY,Explicit duplicate charge
+851571,"@AmazonHelp Done, many thanks for getting in touch!",RANDOM,,OTHER,MESSY,Generic thanks
+2513914,@AmazonHelp 404-7174115-8804331 my order cancel without any intimation. I want it as per schedule. This is 3rd time bad experience pls solve,ORDER_CANCELLATION,0.7891767024993896,ORDER_CANCELLATION,EASY,Order cancelled unexpectedly
+1461521,@115830 Received this today + look how damaged it is. No damage to external packaging so was packaged up and willing sent to us like this😐 https://t.co/dQHjpjtGmH,PRODUCT_ISSUE,0.5455001592636108,PRODUCT_ISSUE,EASY,Product arrived damaged
+1478885,"@116928 El problema llega cuando me dice que tengo que devolver el producto, como devuelvo algo que no me ha llegado?",WRONG_ITEM_RECEIVED,0.6945801973342896,DELIVERY_NOT_RECEIVED,BOUNDARY,Customer says product hasn't been received
+2882533,In the last 24 hours I've had my bank details stolen and used in association with an amazon prime account the response from @115821 and @33924 has been disgusting.,ACCOUNT_SECURITY,0.6672195196151733,ACCOUNT_SECURITY,EASY,Bank details stolen/used with account
+2686573,@AmazonHelp I was supposed to receive a package yesterday and it never arrived. Now it’s showing it was delivered at 11:30 pm last night but it was not. How do I find out where my package is?,DELIVERY_NOT_RECEIVED,0.7126486301422119,DELIVERY_NOT_RECEIVED,EASY,Delivered but not received
+351126,@AmazonHelp I got my order. Thanks,ORDER_STATUS,0.676861047744751,OTHER,MESSY,Simple acknowledgement
+1731611,@115830 @AmazonHelp Can't get into my account. Password reset email code not being received inbox or spam. Help please.,ACCOUNT_ACCESS,0.7193155288696289,ACCOUNT_ACCESS,EASY,Login/password-reset problem
+806328,@AmazonHelp @312151 I’m still waiting for my order that should have been delivered on the 10th,ORDER_STATUS,0.6553142070770264,DELIVERY_DELAY,EASY,Expected delivery date has passed
+1460524,@AmazonHelp Why am I not able to cancel a delivery??,DELIVERY_DRIVER_ISSUE,0.6035251617431641,,,
+928315,I have spend 31k on a product and i get a defective one? @115850 @AmazonHelp &amp; no replacement for it? https://t.co/Rr1d7IHS8P,PRODUCT_ISSUE,0.6874707937240601,DELIVERY_NOT_RECEIVED,EASY,Product/package not received despite delivered status
+1385298,"Hi @115830
+My package has missed two delivery dates but is now refundable if late by a further 10 months? Also Aug 10th isn't a Saturday? https://t.co/YGr1AdoFt3",DELIVERY_DELAY,0.7551268339157104,DELIVERY_TRACKING,EASY,Carrier tracking and Amazon status disagree
+1048775,Another failed delivery from @117795 Getting fed up with this as have lost count of the number of deliveries that have failed,DELIVERY_DRIVER_ISSUE,0.6111370921134949,ACCOUNT_ACCESS,EASY,Cannot sign in; password rejected
+1401461,@115821 so a package was supposed to be delivered today. Tracking last shows it left on Thursday but nothing since and package not at home any ideas?,DELIVERY_TRACKING,0.6102372407913208,ACCOUNT_SECURITY,EASY,Account compromise/fraud accusation
+1283811,@AmazonHelp product delivered not up to the quality standard. Not expected this quality. Want to return! Please help,PRODUCT_ISSUE,0.5239197611808777,MISSING_ITEM,BOUNDARY,One item never arrived; refund is secondary
+685683,"@115830 Now I can't get into my account at all, you're a bunch of thieving Ba****ds!",ACCOUNT_ACCESS,0.6618744134902954,REFUND_STATUS,EASY,Asking about refund initiation
+1205000,@AmazonHelp Just get my package it was suppose to be here today but oh no,DELIVERY_NOT_RECEIVED,0.6899045705795288,OTHER,MESSY,Complaint without a clearly supported operational intent
+1391145,"@AmazonHelp You have charged me twice to two items, my bank confirmed it, I gave the codes to you but still you're denying it. Unbelievable.",UNEXPECTED_CHARGE,0.5766656398773193,OTHER,MESSY,Synchronization/account feature issue outside taxonomy
+2042074,@AmazonHelp Yes but the bank says you have double charged but you refuse to acknowledge that or talk to them. This has been happening frequently.,UNEXPECTED_CHARGE,0.5467467308044434,ORDER_CANCELLATION,EASY,Asking why order was cancelled
+1595329,@AmazonHelp last month my card was charged for prume when even though its canceled and it did it again this month,UNEXPECTED_CHARGE,0.49905717372894287,DELIVERY_DELAY,EASY,Explicitly says delivery date is delayed
+2847336,"Ordered a new sd card from @115830  and it charged me twice, great 😑",UNEXPECTED_CHARGE,0.5363905429840088,UNEXPECTED_CHARGE,BOUNDARY,Charge during presumed trial period
+527631,@115850 received a broken item in my order. Asked for replacement 2dayd back. No progress yet. This isn't the way customers should be handled. #badshopping@amazon,PRODUCT_ISSUE,0.5313130617141724,OTHER,MESSY,No clear support request
+1201193,"Ummmm as an @115821 prime member, I’m highly disappointed that my shipping time has been extended😒😒",RANDOM,,REFUND_STATUS,EASY,Refund processing status
+320381,"@AmazonHelp Yes I have reported, But what about my order which is supposed to be delivered on 6th Oct with #PRIME....#3DAYSDELAY",ORDER_STATUS,0.6741188764572144,ACCOUNT_ACCESS,BOUNDARY,Vague account trouble; access issue implied
+467369,"@226254 @115821 Yep, I’ve definitely noticed more delayed packages in the last few months.  Had one today that was supposed to arrive but didn’t.",DELIVERY_DELAY,0.6851603984832764,REFUND_STATUS,BOUNDARY,Refund promised but hasn't happened
+422037,@115850 hey where is my refund??,REFUND_STATUS,0.848525881767273,ORDER_STATUS,EASY,Asking about order history/status
+2360459,"@AmazonHelp Really, whats the point of paying for prime when i cant gave my packages delivered on time?",RANDOM,,OTHER,MESSY,Seller context without actionable supported intent
+2142881,"@AmazonHelp Yes, I already checked, so Is there anyway I can get the money back and get acces to my account",CASHBACK,0.6675018072128296,RETURN_REPLACEMENT,EASY,Explicit return request
+2688064,@AmazonHelp There’s no card thingy so don’t know who the carrier is... it’s not with a neighbour and not in my ‘safe place’... there wasn’t even a knock on the door to attempt to deliver it!,RANDOM,,OTHER,MESSY,Manufacturer hasn't replied; insufficient context
+1545998,@AmazonHelp I've sent the details. Please just cancel the order. It's not worth all the hassle and waste of time I'm going through for it.,ORDER_CANCELLATION,0.7672308683395386,DELIVERY_TRACKING,EASY,Tracking details
+385364,@AmazonHelp what is the point in having delivery instructions if your drivers ignores them?,DELIVERY_DRIVER_ISSUE,0.6455733776092529,OTHER,MESSY,Generic follow-up with insufficient context
+128829,@AmazonHelp @115850 Played every quiz but still till date not a single winner name came out. Transparency is not there. You should publish name on your Twitter account @AmazonHelp @115850 if its not just a publicity stunt and advertising idea,RANDOM,,ORDER_CANCELLATION,BOUNDARY,Customer is being asked to cancel after delivery-date changes
+2855134,"uh amazon charged me twice for the same item, what d0",UNEXPECTED_CHARGE,0.5401960015296936,PRODUCT_ISSUE,BOUNDARY,Product problem; resolution delay is secondary
+2460018,@115850 Not credited 99 cashback for Jio 459 recharge,CASHBACK,0.6549954414367676,ORDER_STATUS,EASY,Explicitly asks order status
+56932,@115850 How can refunds this my money https://t.co/vzd9YnpQ6U,REFUND_STATUS,0.8628394603729248,REFUND_STATUS,EASY,Refund amount doesn't match purchase price
+2216878,@AmazonHelp Was eligible for a cashback under SbI cashback offer back in August. Didn't receive yet,CASHBACK,0.7293328046798706,ACCOUNT_ACCESS,EASY,Cannot log into account
+80798,@115850 item not received for order 406-1844716-6230753 Status is showing delivered . Have also received SMS mentioning item delivered. Kindly address urgently.,MISSING_ITEM,0.7006767392158508,ORDER_CANCELLATION,EASY,Order cancellation issue
+314242,@115850 Pathetic service! Its been 10 days to receive my order still cash back isn't received. No call connect in Customer Care,CASHBACK,0.6557906270027161,PRODUCT_ISSUE,EASY,Defective product; exchange requested
+1695,@115821 my order hasn’t arrived (it was due 14th October). Can you help?,MISSING_ITEM,0.7242395281791687,ACCOUNT_SECURITY,EASY,Attempted account compromise
+1041740,Hey @115821 thanks for locking my account. Now I can't login to get customer service to unlock my account. #fail,ACCOUNT_ACCESS,0.7743327617645264,OTHER,MESSY,Invoice-copy request outside taxonomy
+290429,"@115821 is awesome. They made sure I got my order on time, despite saying it would be delayed. Maybe awesome customer service is the real reason they are killing retail.",RANDOM,,ORDER_STATUS,EASY,Asking to check order details
+2662261,@AmazonHelp I was Queen of Hearts for the weekend. And I'll be a mermaid for Halloween night 😉,RANDOM,,ACCOUNT_ACCESS,EASY,Unable to log in
+985034,@AmazonHelp My refund is still not done,REFUND_STATUS,0.8565865755081177,CASHBACK,EASY,Cashback not received
+2929564,"@115850 where is my order? Tracking details not updated for last 12 hrs guaranteed to be delivered today
+@AmazonHelp",DELIVERY_TRACKING,0.5512573719024658,ORDER_CANCELLATION,EASY,Explicit cancellation
+2940219,@AmazonHelp hi. I have ordered an item with was split into 2 deliveries. I seem to have been charged once for the full cost of the item and then a second charge for the second part of the delivery.,UNEXPECTED_CHARGE,0.47800713777542114,PRODUCT_ISSUE,BOUNDARY,Broken product; replacement secondary
+512452,Ordered from @115821 and I get a delivery of an empty box. #Frustrated,MISSING_ITEM,0.6981051564216614,PRODUCT_ISSUE,EASY,Replaced product still doesn't work
+39558,"I got my refund from @115821 for my copy of odyssey, but was hit with a restocking fee because their delivery people can't do their job.",REFUND_STATUS,0.7126843929290771,OTHER,MESSY,No actionable intent
+1216274,I was supposed to get a package almost a month ago &amp; it still has not showed. Help! @115821 @134682 @AmazonHelp @81,DELIVERY_NOT_RECEIVED,0.7781028747558594,DELIVERY_TRACKING,EASY,Explicit tracking number/status
+2319449,"@AmazonHelp I need some information regarding a package I'm awaiting delivery for. Online it says it's final delivery attempt was yesterday, but I've had no email confirmation of this and I really need it delivered today!! Please help!",DELIVERY_DELAY,0.7085697650909424,RETURN_REPLACEMENT,BOUNDARY,Returned item/order; return context primary
+56859,.@115821 why is my account being hacked like every week now...! https://t.co/zToW3sG9CC,ACCOUNT_SECURITY,0.783339262008667,UNEXPECTED_CHARGE,EASY,Explicit duplicate charge
+503442,"@115821 Crappy delivery experience today.  Took a half day off of work for my scheduled, enhanced delivery and it still hasn't arrived and no one can tell me when it will.  Can you help?",DELIVERY_DELAY,0.6933429837226868,OTHER,MESSY,Generic thanks
+1435688,"@AmazonHelp Bonjour, il s’agit d’un retour que je compte faire, pour un produit en cours de livraison.",RANDOM,,ORDER_CANCELLATION,EASY,Order cancelled unexpectedly
+1093244,@115850 help me wrong product collected for return,WRONG_ITEM_RECEIVED,0.5993043780326843,PRODUCT_ISSUE,EASY,Product arrived damaged
+790186,@AmazonHelp @115851 thanks a lot to you. I have received the product now which is defective..,PRODUCT_ISSUE,0.6664828062057495,DELIVERY_NOT_RECEIVED,BOUNDARY,Customer says product hasn't been received
+2974887,@115821 #help I had a package delivered today and my item was broken what do I do?,WRONG_ITEM_RECEIVED,0.6045916676521301,ACCOUNT_SECURITY,EASY,Bank details stolen/used with account
+255735,"@AmazonHelp just got an email that you guys changed an email for one of my accounts, which I didn’t put the request in for Someone hacked it",ACCOUNT_SECURITY,0.6625292897224426,DELIVERY_NOT_RECEIVED,EASY,Delivered but not received
+2394957,"@AmazonHelp リプライありがとうございます！
+普段代引きしかしたことが無かったので。
+Amazonギフト券を使い購入すればいいのですね！分かりました。ありがとうございます！",RANDOM,,OTHER,MESSY,Simple acknowledgement
+456530,"@AmazonHelp You messed up a delivery, offered free items as compensation then messed up that delivery and when I complained you withdrew the original compensatory offer",WRONG_ITEM_RECEIVED,0.5796570777893066,ACCOUNT_ACCESS,EASY,Login/password-reset problem
+1127124,@AmazonHelp There is no point since no update is given to me regarding product. If it's damaged please let me know. I'm already emailing since few days https://t.co/fweFvcuUFX,PRODUCT_ISSUE,0.6737338900566101,DELIVERY_DELAY,EASY,Expected delivery date has passed
+2780555,... what am I paying amazon prime for...  when will my figs be free... https://t.co/x6tXnCa7SU,RANDOM,,,,
+1199049,"@115850 @AmazonHelp OrderNo 171-4833625-7391554 isn't delivered it's returning back to seller,Without any contact returning back.plz help",MISSING_ITEM,0.6998574733734131,,,
+376282,@AmazonHelp I was ordered 2 no’s above item but I received only one short buy yesterday https://t.co/AmZ1uxwd0I,WRONG_ITEM_RECEIVED,0.5764381885528564,,,
+1206903,Like SERIOUSLY!! @115850 need to up their standards .. Re. 1 discount on a 5999 item featured as lightning deal! https://t.co/mPOFSS8CPe,RANDOM,,,,
+1388416,@115850 @AmazonHelp what’s this ? Damaged product ? https://t.co/NxdghrQxHK,PRODUCT_ISSUE,0.7152391672134399,,,
+894658,@AmazonHelp: I received the item I sent back for a return in the same packaging/box/label that I gave to the person that picked it up. Please advise.,WRONG_ITEM_RECEIVED,0.6262611150741577,,,
+707409,I still didn't received my amazon great Indian sale pay balance recharge cashback when I am gonna get it I was told that I will receive it by 10th October. @AmazonHelp,CASHBACK,0.6623409986495972,,,
+181147,@AmazonHelp I can’t sign in to contact customer service. Password is correct. I tried to reset it. https://t.co/aGealFv1Id,ACCOUNT_ACCESS,0.668332576751709,,,
+474394,@118919 i have not received any information nd doesn't pickup my product yet...product doesn't working... https://t.co/rH9WAwkYof,RANDOM,,,,
+2962740,"@AmazonHelp sorry let me say that again in english, I cannot log in into my account even after reseting the password multiple times (i even got the captcha), please help I wanted to buy something to get the 1st",ACCOUNT_ACCESS,0.6839590072631836,,,
+2124740,@AmazonHelp Im sick to death of opening cases and sending emails. My account has been compromised. I was told it would be sorted after 48 hours. It is now longer than this.,ACCOUNT_SECURITY,0.7025079727172852,,,
+310552,@AmazonHelp yes its supposed to be delivered on the earliest next delivery tomorrow but still i find it insane that a driver can do this.,DELIVERY_DRIVER_ISSUE,0.6431933641433716,,,
+1407658,@AmazonHelp Dear can u check my order detail my concern rais by me on 14/10/2017,ORDER_STATUS,0.6969360113143921,,,
+2418658,@115821 @117795 seriously?? This is how you ship books? I’ve complained about this several times and u just won’t listen. This is appalling and a lack of customer service and lack of respect for books! https://t.co/lcZ1PhjVj8,RANDOM,,,,
+460028,@AmazonHelp It’s not working still. It plays for a couple seconds then goes back to the start up screen,RANDOM,,,,
+2322141,@AmazonHelp Not getting reply even after sending 2 reminders on email,RANDOM,,,,
+380215,@AmazonHelp I was told refund is processed &amp; will be paid lin my account by 25th september. I also had email from customer service about the same.,REFUND_STATUS,0.723809003829956,,,
+542118,"@AmazonHelp Yeah, but I cannot get a refund now so it does me no good.",CASHBACK,0.6717275381088257,,,
+21045,Dearest @115850 this is not expected from you guys. This package was supposed to reach me by Fri. Havent yet got an update! https://t.co/QvgTdMpWUi,DELIVERY_NOT_RECEIVED,0.7018441557884216,,,
+2154427,@AmazonHelp if i order a package would i be able to still have the tracker even though the package i ordered didnt arrive by the date it was estimated to arrive?,DELIVERY_TRACKING,0.6200286149978638,,,
+915935,@115850 My Order id: 403-6019015-9546740.I still haven't received the product but it says that the product has been delivered. Pls help,MISSING_ITEM,0.7270350456237793,,,
+1553833,"@115850 @118702 I've already contacted them, but it resulted with no solution for this as i can't transfer my money to bank",CASHBACK,0.6853241920471191,,,
+806316,"@AmazonHelp Hi, I am still having no luck",RANDOM,,,,
+338574,@AmazonHelp @117093 hi - I just ordered an unattended delivery and the driver called me screaming at me he can't get into bldg.,DELIVERY_DRIVER_ISSUE,0.6070655584335327,,,
+1265262,@115850 I didn't received my Jio recharge cash back yet. @AmazonHelp could you please help me out that whether I'm eligible for cash back?,CASHBACK,0.6730549931526184,,,
+1522607,"Really, @115821 This is how ur now making deliveries to my house?? Because I’m sure nobody could drive by and steal those.  @AmazonHelp https://t.co/Wj27QaqUkb",RANDOM,,,,
+2260556,@AmazonHelp shipping delay. Is my package lost?,RANDOM,,,,
+1559852,"@AmazonHelp 
+I cancelled my amazon prime delivery in May, yet it’s still coming out my bank account now?",RANDOM,,,,
+2298698,@AmazonHelp as I said no thanks. I'm happy to take my business elsewhere. You guys have abused the power too much.,RANDOM,,,,
+2905165,"@AmazonHelp I returned an item, was refunded the money and now I get a notice saying I was charged and the item was not returned?? What's happening??",WRONG_ITEM_RECEIVED,0.6139078140258789,,,
+248671,@AmazonHelp @115821 when are you going to ship my order to me please don’t make me cancel it 🙂 order 112-1151988-6640213,ORDER_CANCELLATION,0.8028284311294556,,,
+1215784,@115850 very very poor service. My product has not been delivered and status is showing delivered. Sahi time pe dhokha diya hai amazon ne,RANDOM,,,,
+318581,@115850 this is regarding my order# 171-5331733-1100309 which shows as delivered but in reality it's not delivered to me @1560,MISSING_ITEM,0.7078630328178406,,,
+1099261,@115821 @115850  @AmazonHelp  #405-3161422-8924357 I was informed about the Guaranteed delivery yesterday and it never got delivered 1/2,DELIVERY_DRIVER_ISSUE,0.6043792366981506,,,
+789761,@AmazonHelp Please check return policy again. Return is possible if product is different from what was ordered. isn't it ?,RETURN_REPLACEMENT,0.6024671792984009,,,
+721732,"@AmazonHelp Replacement at no charge, keep the existing defective item for a 20% discount, or a full refund. I need the item so I opted for replacement.",RETURN_REPLACEMENT,0.6327012181282043,,,
+1189461,Did not received my package @115850.,DELIVERY_NOT_RECEIVED,0.8185323476791382,,,
+1883250,@AmazonHelp This has no relevance to my situation whatsoever can you cancel my order or refund me 206-5443447-3430701,ORDER_CANCELLATION,0.7590394616127014,,,
+792107,@115850  My order is not being placed yet expected date was 10th of Oct. Will you going to do something?,ORDER_STATUS,0.6676102876663208,,,
+1190156,@AmazonHelp You missed by  lot. Today's the delivery date. Package hasn't  shown any movement in ~36 hrs.,DELIVERY_DELAY,0.70674729347229,,,
+132401,@AmazonHelp Should I cancel the order?,ORDER_CANCELLATION,0.8888972401618958,,,
+577124,@115850 i ordered a product got wrong product still my refund not done 1month passed,WRONG_ITEM_RECEIVED,0.6162514686584473,,,
+1589427,@AmazonHelp No the refund to my debit card failed so I was asked to provide bank informaiton for a bank transfer refund.,CASHBACK,0.6783727407455444,,,
+2762732,@AmazonHelp https://t.co/RBJeNYxNJv using mobile app,RANDOM,,,,
+2135663,@AmazonHelp Didn't received my package today,DELIVERY_NOT_RECEIVED,0.8344742655754089,,,
+2766929,"Your delivery driver left packages outside my flat door the other day, for anyone to take. Can someone sort this out? He never delivers safely to our building! @AmazonHelp",DELIVERY_DRIVER_ISSUE,0.6089085936546326,,,
+852721,@115850 @AmazonHelp I got my refund today. Missed all deals. Worst experience so far.,REFUND_STATUS,0.7241240739822388,,,
+1330254,"@AmazonHelp hace varias semanas recibí un email diciendo que me reembolsarían el dinero de una devolución. Casi un mes y sin noticias, el reembolso no se ha producido, qué hago?",REFUND_STATUS,0.7161440849304199,,,
+2394485,"@AmazonHelp Hi, I've gotten in contact with support several times this week about my payment being declined for a game I preordered and now I'm starting to think I'm not even going to get that or any of the preorder bonuses.",RANDOM,,,,
+1458010,"@AmazonHelp my package went from 2 day delivery to 6 day cus of a ""delay."" Twice Ive used prime shipping and haven't gotten things on time 😒",DELIVERY_DELAY,0.719322144985199,,,
+448256,"@AmazonHelp Thankyou. Turns out delivery is late, should be due 1-4 Dec. Disappointing",DELIVERY_DELAY,0.7765110731124878,,,
+1375327,@AmazonHelp my package that was to arrive today still says out for delivery-it’s 930pm. Is it coming tonight? Need it for tomorrow.,DELIVERY_DELAY,0.7405258417129517,,,
+1521744,@AmazonHelp My order details https://t.co/M1YcMAPXYm,ORDER_STATUS,0.7612875699996948,,,
+295322,@115830 I wish to complain about the late delivery of my package.  Why is there not an email on your website to contact you about this?,DELIVERY_DELAY,0.7212988138198853,,,
+2679195,@753881 disappointed in @115821 bought the regrip and this is how I received it. As you can see this is useless.  #sadface #nogrip https://t.co/l1OlcIodpZ,WRONG_ITEM_RECEIVED,0.629851222038269,,,
+1371844,@AmazonHelp @115821 how did you guys manage to ship me the wrong item twice ! Pathetic if you ask me,WRONG_ITEM_RECEIVED,0.5764337182044983,,,
+571808,@115850 I have not getten my cashback offer that was purchase on 12.08.2017,CASHBACK,0.8155317306518555,,,
+347171,"Same product, different @115821 packaging method. #fail https://t.co/nk3nqSkj12",PRODUCT_ISSUE,0.5380042791366577,,,
+2281442,@115830 be nice if the delivery driver read the address they should deliver to before failing a delivery attempt. Now the gift I’ve sent may never be received due to the driver!,DELIVERY_DRIVER_ISSUE,0.6436331272125244,,,
+1188146,@AmazonHelp I placed the order on https://t.co/ySe8JgJ0ke,ORDER_STATUS,0.7258613109588623,,,
+250568,@115821 I had a package that supposedly was delivered today and sign by me? But  i never receive the package wth so who lying?,DELIVERY_NOT_RECEIVED,0.6938828825950623,,,
+4837,"@AmazonHelp アカウント凍結して不正アクセスを調べてもらうことになりました。
+ありがとうございました。",ACCOUNT_SECURITY,0.6969544887542725,,,
+845691,@133929 @120169 @115821 @AmazonHelp  My amazon package gone missing Aramex response is poor. What are my options? Tracking : 1760858890,DELIVERY_TRACKING,0.5223656892776489,,,
+1563543,"@AmazonHelp We had a missed delivery on Friday, driver must have ignored delivery instructions. Now we have been given a delivery date of Wednesday.",DELIVERY_DRIVER_ISSUE,0.6531515121459961,,,
+1096704,"@AmazonHelp I was charged 3 times for a single order, how can I resolve this?",UNEXPECTED_CHARGE,0.6525615453720093,,,
+737987,"@AmazonHelp Pickup of the product is planned after several failed attempt and on 8th Oct it was done, instead of refund now again same product is resent",RETURN_REPLACEMENT,0.5388196706771851,,,
+2823950,Oye @116875 ( o @122342 ) me están haciendo dobles cargos en la tarjeta después de 12hrs de la compra. Me pasó esta semana con 3 pedidos y ahorita ya es la 4ta vez.,UNEXPECTED_CHARGE,0.5071385502815247,,,
+497361,"@AmazonHelp @AmazonHelp @115850 
+Still nothing!
+Just a customary 'we'll get back to you' response and leave the customer waiting for nothing",RANDOM,,,,
+500868,@AmazonHelp I have been in touch. It was suggested that it was someone I know incurring the charges which has been confirmed that is not the case. I still continue to be charged and have heard nothing about a refund of the stolen money,UNEXPECTED_CHARGE,0.5425763130187988,,,
+695120,@AmazonHelp November 22,RANDOM,,,,
+1604993,@AmazonHelp hi I ordered a product through prime yesterday and it says it will be late but the tracking info says it is at my local depot??,DELIVERY_TRACKING,0.5225156545639038,,,
+1249434,@AmazonHelp 先ほどご連絡させていただきました！わざわざご丁寧にありがとうございます,RANDOM,,,,
+1126683,@AmazonHelp Thanks!,RANDOM,,,,
+832935,"@AmazonHelp 親切に有りがうございます。
+幸いURLを踏まずに注文履歴を確認したので大丈夫でした。",RANDOM,,,,
+1385726,@AmazonHelp I need a replacement since i got in a deal. But its out of stock now.,RETURN_REPLACEMENT,0.5393072366714478,,,
+1384135,"@AmazonHelp Got the email and it tells me to go to the account and follow instructions, but i cant access to the account. Need help!",ACCOUNT_ACCESS,0.6858652830123901,,,
+1224544,@115821 tengo que cancelar una orden que demoró más de lo acordado. ¿Cómo hago?,ORDER_CANCELLATION,0.7678940892219543,,,
+897483,"@AmazonHelp my account was hacked without going to my email, Please get back to me",ACCOUNT_SECURITY,0.8209516406059265,,,
+133731,@AmazonHelp Mein Paket ist heute wieder nicht in Zustellung.,DELIVERY_NOT_RECEIVED,0.7996626496315002,,,
+503476,Two delayed packages from @115821 this week and their customer support is a joke. One of the packages is needed to be delivered today for an early Christmas gift for this Sunday.,DELIVERY_DELAY,0.714713454246521,,,
+2343961,@115850 @115821 There are rust &amp; Damaged in the charger https://t.co/Knt4tacLVa,PRODUCT_ISSUE,0.517227292060852,,,
+526167,"@AmazonHelp No revision, all it states if that I do not receive my package by this Wednesday, to contact you all.",DELIVERY_NOT_RECEIVED,0.6957451105117798,,,
+2969487,"@115821 I've had two packages that were ""delayed"" in the past month. I live 30 minutes from your warehouse, can I just come pick it up? #21stcenturyproblems",DELIVERY_DELAY,0.6896083354949951,,,
+264788,@AmazonHelp Kindly check your records.,RANDOM,,,,
+476908,@AmazonHelp But at least there should be option where I can return the product...33k is  worth for me...there should be some solution...,RETURN_REPLACEMENT,0.5676657557487488,,,
+1883453,"@AmazonHelp This is the order details Order #
+406-5285363-3619528. I want to cancel this order.",ORDER_CANCELLATION,0.8070628046989441,,,
+1324520,@AmazonHelp I purchased something yesterday but then I noticed on my bank statement I was also charged one pound on its own. why?,UNEXPECTED_CHARGE,0.4935227334499359,,,
+233552,"@115850 
+I can't return a product as there is no such option, there's option for replacement only. But I am not satisfied with the product",RETURN_REPLACEMENT,0.7375032901763916,,,
+2549844,"@AmazonHelp I'm using an iPhone 6. It doesn't really say anything, I just can't find the photos in the gallery after I upload",RANDOM,,,,
+1770527,@AmazonHelp I can't chat because I can't login to my account. Please send me the phone number to call.,ACCOUNT_ACCESS,0.6524710655212402,,,
+782539,@115850 kindly refund my money  order #404-9907668-2959526,REFUND_STATUS,0.7411527633666992,,,
+1529943,3 livraisons de commandes @120533 Prime non livrées par @120535 alors que j'étais présent toute la journée ! WTF ?! https://t.co/VTIKKIXsP7,RANDOM,,,,
+2926413,.@115821 @AmazonHelp should I expect receiving my order in this lifetime? https://t.co/kIHstcl8GU,ORDER_STATUS,0.6796101331710815,,,
+2921382,"@AmazonHelp AMZL US
+
+Thats what it says is the shipper. Shouldn't you know who the shipper is? Why should I have to do your job?",RANDOM,,,,
+639485,"Today I was extremely disappointed by the delivery service of @115850 , I contacted 4-5 times to confirm not to deliver at #ShippingAddress , even though package went to that address only. Why you people accept if you can't fulfill things, #LearnToDeny",DELIVERY_DRIVER_ISSUE,0.6343804597854614,,,
+1947060,@AmazonHelp Yes but it’s not a pending charge. Shows as charged on my card on Oct 2nd. Sent inquiry to @116016 on Oct 5 &amp; haven’t heard back,UNEXPECTED_CHARGE,0.5005596876144409,,,
+1565885,"@115850  Returned an order of ₹689. Refund is partially done, although status says that refund started on Oct24.",REFUND_STATUS,0.7457691431045532,,,
+1735163,@AmazonHelp I cannot get into my Amazon account. I’ve change my password about 3 times and I still can’t get into it.,ACCOUNT_ACCESS,0.6511894464492798,,,
+15700,Hey @115850 @AmazonHelp I need an update on my refund! Can you help?,REFUND_STATUS,0.823403537273407,,,
+749688,@AmazonHelp delivery 1 delivered to the wrong street. Delivery 2 the same day not delivered at all. #poorservice,DELIVERY_DRIVER_ISSUE,0.6183686256408691,,,
+1648493,"@AmazonHelp I'm not going to do that, but fyi tracking information says a package is delivered, and it isn't. Again.",DELIVERY_TRACKING,0.6456990838050842,,,
+855976,@AmazonHelp I've received an email about my refund saying it was an additional item and I won't be refunded. However I did pay for it?,REFUND_STATUS,0.7488486766815186,,,
+13189,"Hi @AmazonHelp, I’ve purchased something via your app and it’s broken! How can I get it replaced?",PRODUCT_ISSUE,0.5201321840286255,,,
+1274001,"@115850 , where is my package? https://t.co/DgvftEjwRL",DELIVERY_NOT_RECEIVED,0.7063481211662292,,,
+351833,"@AmazonHelp hello, My package was out for delivery but now it is saying it is delayed because courier was unable to arrange delivery",DELIVERY_DELAY,0.8241747617721558,,,
+1745470,Why was I charged $1 for starting my 30 day @115821 prime trial? @AmazonHelp,UNEXPECTED_CHARGE,0.5087580680847168,,,
+276477,@115830 can you update me on my delivery that was already delayed and now even later than you said? https://t.co/4G95dHHymc,DELIVERY_DELAY,0.7474938631057739,,,
+1369929,"@AmazonHelp Bonjour 👋
+Alors ça dépend de quel SAV ? Par E-mail ? Sur le site internet ?",RANDOM,,,,
+2273474,@AmazonHelp 出品者からの急なキャンセルでamazonギフト券での返金って、メール来てからそのままポイントとしてお金が入ってるんですか？それとも、ギフト券的なのが届くんですか？ https://t.co/v6lr2OQkoW,RANDOM,,,,
+2972777,今更ながらアマゾンビデオで動画ダウンロードしておけば外でも通信量なしで観れるの気づいたので、昼休みとか利用してアニメ観よう。まずはメイドインアビス,RANDOM,,,,
+1457343,@115850 guaranteed delivery gone wrong? Havent received my shipment yet even after paying more for immediate delivery! #help,DELIVERY_DRIVER_ISSUE,0.6840968728065491,,,
+2685107,@AmazonHelp It’s on my amazon echo show,RANDOM,,,,
+218113,@115821 I pre ordered Star Wars never got my beat code ?,RANDOM,,,,
+2752060,"@AmazonHelp Tonight, the delivery was marked as being unable to be delivered--I received no phone call from the Amazon # in Washington or any call from the driver using the callbox.",DELIVERY_DRIVER_ISSUE,0.6046454310417175,,,
+250025,@AmazonHelp My order I'd 403-1636958-1685135 which refund is still waiting,REFUND_STATUS,0.7867327928543091,,,
+382336,@AmazonHelp IT'S BEEN ALMOST A MONTH AND I STILL STRUGGLING WITH A REFUND U OFFERED ME BC MY ACCOUNT WAS HACKED. NO ONE IS CONTACTING ME.,ACCOUNT_SECURITY,0.7456687688827515,,,
+740386,"@AmazonHelp Oui mais pour ça je dois me connecter or vous avez supprimé mon mot de passe car quelqu'un a essayé de se connecter sur mon compte, merci",ACCOUNT_SECURITY,0.6305754780769348,,,
+114434,@AmazonHelp thank you for loosing my bottle of whisky! Please explain how your drivers could not find my house exactly??,RANDOM,,,,
+1150902,"Please, where's my order? Delivery was at 8pm yrstdy, got a text at 7:47p informing me of undelivered package @AmazonHelp  @115821 #URGENT",DELIVERY_NOT_RECEIVED,0.7011944055557251,,,
+643285,@115821 hey buddies i am missing a package :(,DELIVERY_NOT_RECEIVED,0.7801603078842163,,,
+2705739,@AmazonHelp Ordered something that never showed. Emailed the seller last Wednesday and still haven't heard back. Can you guys help get my money back?,MISSING_ITEM,0.7260052561759949,,,
+425200,What happens when you order a Christian book off @115821 and they send you the Autobiography of Gucci Mane instead ?? Help ??,RANDOM,,,,
+549327,"@AmazonHelp Nouvelle date de livraison estimée : 2 déc. - 6 déc. 
+Nous sommes désolés que votre colis soit en retard. Si vous ne l’avez pas reçu d’ici le jeudi 7 décembre, veuillez revenir sur cette page pour voir les options qui s'offrent à vous.",DELIVERY_DELAY,0.6839194297790527,,,
+1087650,"@AmazonHelp Con relación a devoluciones, ya pasó una semana desde que recibieron el producto que devolví, y aún no recibo el reembolso. XQ?",WRONG_ITEM_RECEIVED,0.606455385684967,,,
+438707,I’d like to know what the hell is going on with my @115821 order!,ORDER_STATUS,0.6988049149513245,,,
+2294027,"@115821 @AmazonHelp So the status has not changed since yesterday - most recent update was YESTERDAY at 10:05 am saying it was on the truck for delivery. Is my package lost? If so, please have the curtesy to just tell me so I can ask for a refund.",DELIVERY_NOT_RECEIVED,0.704885721206665,,,
+2891806,It would seem my local 3PL Amazon delivery man knows what Hannah’s getting for Christmas. Disgusting. https://t.co/o3i4Kjafso,RANDOM,,,,
+1484058,Delivery date pending https://t.co/eFKBoj7LA7,DELIVERY_DELAY,0.7744148373603821,,,
+490530,@AmazonHelp order number 111-0914388-7983449 canceled one of 3 items &amp; haven't received a refund on my card for the canceled item?,MISSING_ITEM,0.6988642811775208,,,
+1659003,@115821 thanks for anothe late game pre order gj,RANDOM,,,,
+136149,@AmazonHelp Hacking des Accounts,ACCOUNT_SECURITY,0.8272975087165833,,,
+573996,"@AmazonHelp I order a product , try cancelling it.. doesn't get cancelled..get the attached email..tried returning says only replacement..called ur customer service..they say return it on ur own. https://t.co/bg6DXiYoEi",RETURN_REPLACEMENT,0.5735170841217041,,,
+246982,"@115850 
+Respected sir 
+First time I use amazon  
+Your representative unable to help.ORDER 403-2505450-9677164
+I can't see resend option",RANDOM,,,,
+1232852,@115850 wanted to return a wrongly delivered item &amp; get it replaced. Ticket raised; pick up cancelled w/o reason; reported it. No action😞,WRONG_ITEM_RECEIVED,0.672014594078064,,,
+1965756,@AmazonHelp still haven't had an update as to why you charged me $17.98.,UNEXPECTED_CHARGE,0.49556291103363037,,,
+348959,@AmazonHelp @115850 15% Cashback not received on Order No.406-5005773-5795543. Instead got less refund on return of this order. https://t.co/fufYpjIO49,CASHBACK,0.6633493900299072,,,
+278641,@1145 sir I have placed one order on @115821 on 22 October but till today they didn't deliver.Instead of delivering consignment ..,RANDOM,,,,
+236254,@AmazonHelp V r talking abt Mumbai- r u saying dt largest e-commerce player can't deliver products in a metro city like Mumbai? Contd..,RANDOM,,,,
+619072,"@115821 @AmazonHelp My most recent order was flagged as a ""unauthorized party""?  Called your service desk, but they cant help. filled out some form and I'll be contacted in 1 to 2 days. I hope this doesn't effect the delivery date and rush shipping!",RANDOM,,,,
+311595,@AmazonHelp quisiera cambiar la opción de como me van a devolver el costo del producto que devuelvo a una tarjeta de regalo por esa cantidad,RETURN_REPLACEMENT,0.563957691192627,,,
+2142100,"@AmazonHelp I did not. I used this card that it was charged on, once to make a purchase. The card it's charged on was totally different.",UNEXPECTED_CHARGE,0.4848373234272003,,,
+2211987,"@115850 My order number is 408-9271797-1781967. The wrong item was delivered TWICE against this order number. Its been about 2 weeks or so since the item was returned (the second time). Please update immediately when the refund (Rs. 1765) would be made, thanks",MISSING_ITEM,0.6954529285430908,,,
+2961777,There is dirt in the jar. Looks like my package was launched directly into my yard. This is no way any package should be handled and it makes me annoyed that anyone would have so little respect for others/their JOB. @115821 https://t.co/r0yXZwyfUp,RANDOM,,,,
+197739,"@AmazonHelp Hello where is my product and already late we are missing this book 
+Please help me provide this book.",RANDOM,,,,
+21423,"@AmazonHelp hello, could I have some information about an order please",ORDER_STATUS,0.6770745515823364,,,
+1120043,"@115850 -first damaged product received. Order id 171-8956037-3847567, the product is not being picked up despite repeated requests https://t.co/dff549mGeP",PRODUCT_ISSUE,0.6115016341209412,,,
+2961700,So I'm guessing @118706 delivered my @115821 package to someone elses house.  Shows delivered yesterday but it never arrived.,DELIVERY_NOT_RECEIVED,0.6998766660690308,,,
+124036,@AmazonHelp Puedo pagar aun cuando no sea el titular de la tarjeta?,RANDOM,,,,
+744144,"@AmazonHelp, I never received a package I ordered. It says it was delivered to my mailbox and it was not.",DELIVERY_NOT_RECEIVED,0.7612863779067993,,,
+438699,@AmazonHelp They already charged my card last night,UNEXPECTED_CHARGE,0.5037663578987122,,,
+318240,@115850  order no 406-0148529-7682714   ....  I paid with Amazon pay..  Stil did not receive the 15 % cashback,RANDOM,,,,
+420058,"@AmazonHelp ich warte seit dem 4.10 auf eine Lieferung. Am 8.10 wurde sie durch einen Mitarbeiter verschoben, wann bekomme ich mein Paket?",DELIVERY_DELAY,0.7249163389205933,,,
+1525009,"Guess I get to report a lost package to @115821. Since moving to Queen Anne, amazon shipping has been terrible.",RANDOM,,,,
+2914599,Anyone else out there suffering from @115821 delivery drivers actively lying about attempting delivery? Second time this has happened in a month. 📦 🤥,DELIVERY_DRIVER_ISSUE,0.6543151140213013,,,
+2466102,@115821 I called customer service but they could not help me. Money left my bank account but no orders @115821,CASHBACK,0.6762782335281372,,,
+689478,@115850 struggling to find how to get product warranty replacement for my order,RETURN_REPLACEMENT,0.5403963923454285,,,
+111956,@AmazonHelp I'm not the account holder attached to it so apparently no one can help me.,ACCOUNT_ACCESS,0.6611194610595703,,,
+1700558,"妖しい！！
+Amazonのアカウントなんぞ持ってない https://t.co/XIxtcjBOCM",RANDOM,,,,
+2902612,"मैंने 23rd Nov 2017 को ""Lucent's सामान्य ज्ञान (2018 edition)"" का ओर्डर दिया था। पर आज मुझे 2016 के edition की किताब मिली। और रुपए नये संस्करण के लिए। तो मुझे 2018 का नया संस्करण भेजें। 
+
+@115850 @AmazonHelp https://t.co/VwzONox5oo",RANDOM,,,,
+2551961,@115830 can't believe that cannot get help to get into my own account!,ACCOUNT_ACCESS,0.6660764217376709,,,
+2162424,@AmazonHelp i haven't got the refund nor replacement for the same. https://t.co/OOKmZGmEWM,CASHBACK,0.7138290405273438,,,
+1657848,@115850 where is my refund for a Oct11 return,REFUND_STATUS,0.8730360269546509,,,
+1041657,@115821 why does it say delivery attempted not successfull.  This is t true there is a receptionist there at all times. They didn’t even try to deliver my package.,DELIVERY_DRIVER_ISSUE,0.6158983707427979,,,
+2391900,@AmazonHelp Now I cant login and can not fill up the details.,ACCOUNT_ACCESS,0.7387322783470154,,,
+834399,"@115850 @AmazonHelp @115821 Order:408-4742078-0005944 I HAVE NOT RECEIVED MY PRODUCT &amp; BUT STATUS IS ""DELIVERED"" I'M DISHEARTENED WITH 1/2",MISSING_ITEM,0.7115978002548218,,,
+2424652,Recevoir sa commande Amazon être contente ouvrir la boîte du jeu voir que la boite est vide être dégoutée 👍 merci @115821,RANDOM,,,,
+1772283,@AmazonHelp Out for delivery TBA528948772000,DELIVERY_DRIVER_ISSUE,0.6080451011657715,,,
+250546,@AmazonHelp Already have. Your rep couldn't find a tracking either. No one knows what's up with this package. So what now?,DELIVERY_TRACKING,0.5573413372039795,,,
+1773969,"ちなみにBluetooth接続をしようとしてもまったくできる気配がなく、よく調べたらBluetooth対応してない…
+Amazonの説明欄にはBluetoothできるっぽい書き方してあったけど、多分上位機種の説明貼ってあるだけなんだろうな、騙された https://t.co/d0Lih6Axz4",RANDOM,,,,
+2299491,"@115821 my Order date
+
+25 September 2017
+
+Order #
+
+D01-4571767-1605466
+
+Order total
+
+   159.30 (1 item)",ORDER_STATUS,0.7091497182846069,,,
+1222599,@115821 seriously disappointed in your lack of security. My account was hacked and nobody is in a hurry to help me :(,ACCOUNT_SECURITY,0.7399022579193115,,,
+544453,Es normal que tarde más de un mes en llegarme un pedido? Además tengo Amazon Prime!!! @115821 @116928 a este paso me llega antes un pedido de Aliexpress... https://t.co/KpsBx7iaJL,RANDOM,,,,
+163500,"@AmazonHelp Perdona? el transportista debería haberse puesto en contacto conmigo que yo soy quien debe recibir el paquete, si no sabe llegar a la dirección de entrega, por lo menos que contacte al cliente para pedir alguna indicación, no creo que sea tan difícil.",DELIVERY_DRIVER_ISSUE,0.6128762364387512,,,
+2449431,"@AmazonHelp you sent me the wrong item &amp; the only way i can find to remedy it through your site is to return it. i don't own a printer, and i'm an adult who works so i can't be home for a UPS guy to come by, especially for something that wasn't my problem to begin with.",WRONG_ITEM_RECEIVED,0.6178500652313232,,,
+2686420,"@AmazonHelp i already have asked for refund ,... and there is no option to update status (only option available is to cancel the return )",REFUND_STATUS,0.7112926244735718,,,
+2128877,"@AmazonHelp Deux fois par téléphone la semaine dernière avec : «  on vous recontacte vendredi 03/11 », mais aucune nouvelles. Par mail ce dimanche mais tjrs rien. Ça commence sévèrement à me fatiguer.",RANDOM,,,,
+273177,Hey @AmazonHelp I Want Return Ur Product Communicate With Me In DM,RETURN_REPLACEMENT,0.5817428827285767,,,
+2277875,@AmazonHelp How do I return a damaged item from 3rd party seller?,WRONG_ITEM_RECEIVED,0.6055457592010498,,,
+1046064,"@115850 Order # 402-5479722-9566747, wrong item received, no refund required, need my product at earliest,,",MISSING_ITEM,0.7351282835006714,,,
+1573576,@AmazonHelp order no - 404-8924729-6533111 I received the defective product but your replacement procedure is more frustrating and irritatng,PRODUCT_ISSUE,0.5389060974121094,,,
+682590,So I bought a new book for my holiday and now it’s not going to possibly be here? Why do I pay for prime? 🤔@AmazonHelp https://t.co/MnXPThi7Kc,RANDOM,,,,
+461244,@115821 I’d like to change my order; is it too late?,ORDER_STATUS,0.6569950580596924,,,
+2832844,@AmazonHelp Yes. All but one of the items on my order arrived. Shipped by AMZL US per your website.,MISSING_ITEM,0.6922104358673096,,,
+21407,@AmazonHelp I received product with torn package with clear damage however small though. Proper care was not taken while delivering. And now if I replace product it will take 5-7 days atleast which I can not afford. I have no option but to keep it and suffer due to bad practise in delivery.,PRODUCT_ISSUE,0.559303879737854,,,
+2609978,Shameful waste of packaging @115830 - an image of my Brother receiving a mop! Excessive &amp; wasteful. Clean up your act! #LessWaste https://t.co/I6F75CjXTe,RANDOM,,,,
+2356803,@115830 appalling customer service.  My account locked for a week now and I keep getting told 24hrs and it will be fixed and it isn't!!,ACCOUNT_SECURITY,0.6891003847122192,,,
+467527,@AmazonHelp Delivery personnel contact no. still not working. Item still not received. Only updates for future updates!,DELIVERY_DRIVER_ISSUE,0.6032301783561707,,,
+224813,@AmazonHelp Thanks for suggesting Kindy send my sales invoice I have to claim the product,RETURN_REPLACEMENT,0.5467188358306885,,,
+561634,Dear @115821 I've been waiting 6 days for my prime order. Please take care of this. #totalGarrettmove,ORDER_STATUS,0.6533394455909729,,,
+1337197,@AmazonHelp My stuff was supposed to be delivered on Wednesday 10/25 and the driver was up the street from my house yesterday and still didn't deliver,DELIVERY_DRIVER_ISSUE,0.605218768119812,,,
+1314436,@AmazonHelp When can I expect the refund,REFUND_STATUS,0.8121590614318848,,,
+31384,@115830 I've received a message on one of my orders that says my item could not be delivered requires action and to contact you any ideas?,MISSING_ITEM,0.7012248635292053,,,
+1121640,@115830 Missed package delivery by 2mins and really needed it today! PLEASE can ask driver to redeliver today trackingID Q63029286413 🙏🏾🙏🏾,DELIVERY_DRIVER_ISSUE,0.6098213195800781,,,
+2858086,@AmazonHelp The only thing was to figure out where the package is and try to delay it. Rep I’m chatting with now says they can guarantee a delayed delivery with USPS for Thursday. Is that true? Never heard of that before.,DELIVERY_DELAY,0.706396222114563,,,
+1758662,@AmazonHelp was told to cancel my order and re-order but it didn't show up in the canceled tab in my account. Rep had to email me,ORDER_CANCELLATION,0.7490197420120239,,,
+331296,@115850 Please clarify on below encircled updates for my package tracker..very strange https://t.co/EL0f1Voq2V,DELIVERY_TRACKING,0.6807514429092407,,,
+2136221,@AmazonHelp I need to cancel my order but I can’t cancel it on the app or website as it just goes blank 😩,ORDER_CANCELLATION,0.8895806074142456,,,
+2556529,"@AmazonHelp Contacted on the support page; a week gone but still no reply from @AmazonHelp ...
+Still no Cashback credited
+
+...",CASHBACK,0.6558241248130798,,,
+326686,@AmazonHelp this is the order info I have https://t.co/SMWPnogJes,RANDOM,,,,
+1816315,@AmazonHelp another one of our packages is late. This time by 4 days &amp; it was a 2 day shipping order.,DELIVERY_DELAY,0.7181411981582642,,,
+2061337,"I was supposed to receive my package by 8:00 pm today. It was last seen in Maryland this morning, after that there is no news about my package. WTF is going on? This is really very frustrating @AmazonHelp",DELIVERY_NOT_RECEIVED,0.6898912787437439,,,
+1727580,@115850 The product which u have shipped is a defective one. What next? 😛 https://t.co/AW5g9lHvvg,PRODUCT_ISSUE,0.5881772041320801,,,
+293389,@AmazonHelp My issue wasn’t resolved...the seller want me to buy a label for $26 to return the item. 🙄😠,WRONG_ITEM_RECEIVED,0.6133345365524292,,,
+1300450,@AmazonHelp Last tracking details showing 11 October.. what a service. O already call CC but not get satisfactory answer,DELIVERY_TRACKING,0.5166103839874268,,,
+665147,@AmazonHelp I can't log in without my password.,ACCOUNT_ACCESS,0.7553027868270874,,,
+1485736,@AmazonHelp Another expected delivery today and another delay courtesy of AMZL US!,DELIVERY_DELAY,0.7399228811264038,,,
+2758923,Even my daughter has started liking the #amazonfirestick @115850 https://t.co/cDrFnnEqfa,RANDOM,,,,
+751710,Hey @AmazonHelp @115821 my refund wasn't fully processed. How do I fix this if I can't return the product I never received?,REFUND_STATUS,0.7306913137435913,,,
+932706,@115850 hello. I have a problem with my order. https://t.co/HeLe3Abxeq,ORDER_STATUS,0.6789487600326538,,,
+966792,@AmazonHelp amazon said my package was supposed to come today but USPS website said its not even there yet,DELIVERY_NOT_RECEIVED,0.687423825263977,,,
+427364,@115850 @115821 contact me if you need more info about them or what they actually doing. #StaySafe #onlinefraud,RANDOM,,,,
+627339,@115851 Everytime there is issue with @115850 delivery. again delivery agent haven't called me and taken my item. Pathetic service,DELIVERY_DRIVER_ISSUE,0.6746234893798828,,,
+2797098,@AmazonHelp It was a kindle. i was refused refund until item is back at your warehouse even though you confirmed it's with the https://t.co/RCSmuJlM3z is no longer prime waste of money. Told I can't have a refund on my monthly subscription for this month as I have used service previously,REFUND_STATUS,0.7202540040016174,,,
+1058070,"@AmazonHelp order no 408-3911896-2329100. Chose Prime, promising delivery in 2-4 days, but delivery extended to 28th. Disappointed",RANDOM,,,,
+1122847,@115850 @115821 I have received the ORDER # 402-9389284-8265946 but it shows undelivered. Spare the refund as I have already received it. https://t.co/rrQzHvuOOZ,REFUND_STATUS,0.7301957607269287,,,
+1075558,"頼んでないし返品したしなのにまだ配達されてんのなに？？
+
+Amazonかクロネコヤマトの嫌がらせ？？",RANDOM,,,,
+1565139,@AmazonHelp Am I able to DM you please?,RANDOM,,,,
+2004849,@AmazonHelp Si je n'ai pas reçu le coli qui l'avez?,RANDOM,,,,
+2760869,"@115850 Dear Jeff,
+ORDER # 403-4168109-2373116 is recieved damaged product
+I want to replace my product otherwise you refund  updated product amount 1870.
+As per your representative  product is not replaced ony refond this is very bad services. https://t.co/7gyv1cVJE1",RETURN_REPLACEMENT,0.5990825295448303,,,
+2179063,@AmazonHelp Too late. Kindly cancel my order as I dont need it now.,ORDER_CANCELLATION,0.8618857860565186,,,
+2390489,"@AmazonHelp As a prime customer who spends a lot of money with you,I am disgusted at the level of customer service that I receive whenever I call you with a problem.I have complained about Amazon logistics over and over again but nothing changes.#badcustomerservice",RANDOM,,,,
+352096,@115821 trackid 183164116364. says dlvrd but did not. rcv package,DELIVERY_TRACKING,0.5182241797447205,,,
+995398,"@115850 why your app is not allowing me to cancel order Order #
+
+403-1592442-8096334",ORDER_CANCELLATION,0.7353295087814331,,,
+2891818,@AmazonHelp I cancelled an order the other day and looking at my bank account this morning i noticed i was charged twice for the cancelled item,UNEXPECTED_CHARGE,0.5964367985725403,,,
+1232851,@AmazonHelp Hi I have still not received any message on pick up of item to be returned. Have lodged complaint on phone &amp; through Twitter. Disappointing,WRONG_ITEM_RECEIVED,0.5797749757766724,,,
+2049074,@AmazonHelp esperando la devolución de mi dinero desde el 31/10 y sigo sin recibir mis 274€.,CASHBACK,0.7384994626045227,,,
+1044266,"@AmazonHelp I can’t sign into my account, can’t start the contact us page",ACCOUNT_ACCESS,0.7472279071807861,,,
+490544,"@AmazonHelp half of my order is still missing. i paid for one day delivery, this is completely unacceptable, my order was a day late and half of it is still missing - fix it. 'My Orders' says its been delivered. DM me if need be",MISSING_ITEM,0.6924253702163696,,,
+192322,@AmazonHelp I am not able to cancel my order..plz help,ORDER_CANCELLATION,0.8074752688407898,,,
+1489136,"@AmazonHelp Oh, except now I can't cancel the order! There's an 'error' stopping me https://t.co/8KcMjhYLHM",ORDER_CANCELLATION,0.7967091798782349,,,
+1005993,@AmazonHelp No and no;the estimated delivery date is useless because only going to be in the us a few hours. The package was “guaranteed” for yesterday,DELIVERY_DELAY,0.7214735746383667,,,
+931834,@AmazonHelp I think I was charged twice it only should have been once. https://t.co/HkLJVw1iRn,UNEXPECTED_CHARGE,0.842482328414917,,,
+306585,@AmazonHelp I have received all 4 items and will be returning the one extra item received. Account still shows I have to return two more items.,WRONG_ITEM_RECEIVED,0.5794807076454163,,,
+2111176,@AmazonHelp Question. When it comes to returning a product. How can I return it and do I have to pay anything? And how do I get my refund?,RETURN_REPLACEMENT,0.692149817943573,,,
+805548,"@AmazonHelp Just got an e-mail saying you haven’t received back an item that arrived damaged, leaking, and was told I didn’t have to return.",WRONG_ITEM_RECEIVED,0.5785279870033264,,,
+2871584,@AmazonHelp I ordered a package on Friday to be delivered today and it’s not here. Now it’s not projected to be here til Wednesday or Thursday,DELIVERY_DELAY,0.7120382189750671,,,
+2299555,@AmazonHelp I've been charged by you but haven't bought anything .. Can u not,UNEXPECTED_CHARGE,0.47277215123176575,,,
+598055,I don't know how I ever slept before I had @115833 play me thunderstorms. 😴,RANDOM,,,,
+2968270,@115821 I was supposed to get a package yesterday and another one today and I still haven’t received any of them nor any email,DELIVERY_NOT_RECEIVED,0.7674188017845154,,,
